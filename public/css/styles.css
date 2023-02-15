@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: "Roboto";
+}
+
+header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+header div.logo {
+    width: 50%;
+    padding: 10px;
+}
+
+.header-superior {
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+header .form {
+    font-weight: 400;
+    text-align: left;
+    width: 50%;
+}
+
+header .form .input {
+    background-color: #fff;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .form .submit {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+div.burger-menu {
+    text-align: center;
+}
+
+div.burger-menu i {
+    background-color: #0044aa;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+
+
+.barra-navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.barra-navegacion a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.lista {
+    margin-bottom: 8px;
+}
+
+.lista li a {
+    color: #000;
+    text-decoration: none;
+}
+
+main {
+    width: 90vw;
+    margin: auto;
+}
+
+main article {
+    margin-bottom: 10px;
+}
+
+main article .info-producto .logo-camion {
+    display: block;
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main article .info-producto {
+    position: relative;
+    background-color: #fff;
+    border-top: solid 1px #ebebeb;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section .producto article {
+    width: 100%;
+}
+
+.cuerpoTexto {
+    font-size: 12px;
+}
+
+.titular {
+    font-size: 24px;
+    margin: 25px;
+}
+
+.precio {
+    font-size: 18px;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+    width: 65%;
+}
+
+.descripcion {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+footer {
+    background-color: #fff;
+}
+
+footer article {
+    text-align: center;
+    padding: 30px;
+}
+
+div.logo-footer {
+    text-align: center;
+    font-size: 2em;
+    color: #1259c3;
+    padding-bottom: 10px;
+}
+
+@media(min-width: 361px) {
+
+    header nav {
+        display: none;
+    }
+
+    main section .producto {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    main section .producto article {
+        width: 100%;
+    }
+
+    main .info-producto .descripcion {
+        display: none;
+    }
+
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media(min-width: 769px) {
+    header nav {
+        display: block;
+    }
+
+    .header-superior {
+        align-items: center;
+    }
+
+    .subtitulo {
+        width: 30%;
+        max-width: 325px;
+        text-align: right;
+        margin: 10px;
+    }
+
+    header .burger-menu {
+        display: none;
+    }
+
+    header div.logo {
+        width: 30%;
+        margin: 10px
+    }
+
+    header .form {
+        width: 30%;
+        margin: 10px
+    }
+
+    .barra-navegacion {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main section .producto article {
+        width: 45%;
+    }
+
+    main .info-producto .descripcion {
+        display: flex;
+    }
+
+    .barra-navegacion ul {
+        display: flex;
+    }
+
+    .barra-navegacion li {
+        margin: 0px 5px;
+    }
+
+    .barra-derecha li .iconos {
+        margin: 0px 4px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .header-superior,
+    .barra-navegacion {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .subtitulo {
+        max-width: none;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .barra-navegacion {
+        margin-top: 30px;
+    }
+
+    .barra-navegacion li {
+        margin: 0px 10px;
+    }
+
+    .barra-navegacion a {
+        font-size: 16px;
+    }
+
+    main section .producto article {
+        width: 22%;
+    }
+}
