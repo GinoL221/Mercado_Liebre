@@ -119,13 +119,18 @@ main {
   margin: auto;
 }
 
-main article {
+main section article {
   margin-bottom: 10px;
   background-color: #fff;
   height: 100%;
 }
 
-main article .info-product .logo-truck {
+main section article:hover {
+  transform: translateY(-15px);
+  box-shadow: 0px 0px 5px rgb(100, 100, 100);
+}
+
+main section article .info-product .logo-truck {
   display: block;
   color: #39b54a;
   font-size: 16px;
@@ -140,7 +145,7 @@ main article .info-product .logo-truck {
   top: -15px;
 }
 
-main article .info-product {
+main section article .info-product {
   position: relative;
   background-color: #fff;
   border-top: solid 1px #ebebeb;
@@ -325,6 +330,10 @@ footer h4.copyright {
   main article:hover .info-product .container-description {
     height: 40px;
     opacity: 1;
+  }
+
+  main article .info-product .logo-truck {
+    transition: transform 200ms ease-in;
   }
 
   main article:hover .info-product .logo-truck {

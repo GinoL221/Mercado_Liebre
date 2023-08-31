@@ -22,15 +22,19 @@ main {
   margin-bottom: 25px;
 }
 
-main form div.control-form div.checkbox {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-around;
+main form div.control-form div.checkbox div {
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 main form div.offers div {
-  margin-left: 25px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+main form div.avatar input.control {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 main.register form.create-form div.botones {
@@ -59,16 +63,14 @@ main form div.offers {
 
 main form.create-form div.buttons {
   display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 main form.create-form div.buttons button {
   border-radius: 10px;
   padding: 5px;
   margin-top: 15px;
-}
-
-main.register form .usuario:invalid {
-  border: 1p solid red;
 }
 
 @media (min-width: 769px) {
@@ -80,5 +82,12 @@ main.register form .usuario:invalid {
 @media (min-width: 1200px) {
   main {
     width: 55vw;
+  }
+
+  main form div.control-form div.checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
   }
 }
