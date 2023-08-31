@@ -1,0 +1,84 @@
+.create-form {
+  padding: 20px 15px;
+}
+
+.control-form {
+  margin-bottom: 15px;
+}
+
+.control {
+  width: 100%;
+  padding: 8px 8px;
+}
+
+.control-form label {
+  margin-bottom: 5px;
+  font-style: italic;
+  display: block;
+}
+
+main {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+main form div.control-form div.checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+main form div.offers div {
+  margin-left: 25px;
+}
+
+main.register form.create-form div.botones {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+main.register form.create-form button.submit-register {
+  background-color: #0044aa;
+  color: #fff;
+  width: 49%;
+  margin: 10px;
+  transition: background-color 450ms;
+}
+
+main.register form.create-form button.submit-register:hover {
+  background-color: #0022aa;
+}
+
+main form div.offers {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+main form.create-form div.buttons {
+  display: flex;
+}
+
+main form.create-form div.buttons button {
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+main.register form .usuario:invalid {
+  border: 1p solid red;
+}
+
+@media (min-width: 769px) {
+  main {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    width: 55vw;
+  }
+}
