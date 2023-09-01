@@ -32,7 +32,7 @@ main {
   height: 40vh;
 }
 
-main.login form .usuario:invalid {
+main.login form input.control:invalid {
   border: 1p solid red;
 }
 
