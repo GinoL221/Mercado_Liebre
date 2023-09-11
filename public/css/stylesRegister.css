@@ -86,8 +86,6 @@ main form.create-form div.buttons button {
 
   main form div.control-form div.checkbox {
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
     justify-content: space-around;
   }
 }
