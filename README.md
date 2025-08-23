@@ -37,7 +37,7 @@ Proyecto de frontend inspirado en Mercado Libre, realizado como práctica de maq
 	```bash
 	npm start
 	```
-5. Abre tu navegador en `http://localhost:3030` (o el puerto configurado).
+5. Abre tu navegador en `http://localhost:3030`.
 
 ## Demo online
 
