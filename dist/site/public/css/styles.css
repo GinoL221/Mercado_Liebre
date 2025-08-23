@@ -15,6 +15,11 @@ header {
   width: 100%;
 }
 
+header .form form {
+  display: flex;
+  align-items: center;
+}
+
 img {
   width: 100%;
 }
@@ -40,12 +45,10 @@ p.offer {
 header .form {
   font-weight: 400;
   text-align: left;
-  width: 35px;
+  width: 38%;
   min-width: 120px;
   margin: 0 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
 }
 
 header .form .input {
@@ -53,26 +56,24 @@ header .form .input {
   border: 1px solid #000;
   outline: none;
   color: #666;
-  padding: 2px 6px;
-  width: 110px;
+  padding: 2px;
+  width: 80%;
   border-radius: 5px;
-  font-size: 14px;
-  height: 24px;
-  margin-right: 4px;
+  font-size: 15px;
+  height: 26px;
+  margin-right: 0;
 }
 
 header .form .submit {
   background-color: #0044aa;
   border: 1px solid #000;
   color: #fff;
-  width: 24px;
-  height: 24px;
-  border-radius: 6px;
-  font-size: 13px;
-  margin-left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 10%;
+  height: 25px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-left: 4px;
+  display: inline-block;
 }
 
 header .form button.submit:hover {
