@@ -41,7 +41,39 @@ Proyecto de frontend inspirado en Mercado Libre, realizado como práctica de maq
 
 ## Demo online
 
-(Agrega aquí el link a GitHub Pages, Netlify o Vercel si lo publicas)
+https://super-jelly-27eda1.netlify.app/
+
+## Capturas de pantalla
+
+Puedes agregar aquí imágenes del sitio en funcionamiento:
+
+![Home](.\screenshots\home.png)
+
+## Estructura de carpetas principal
+
+```
+Mercado_Liebre/
+├── package.json
+├── package-lock.json
+├── README.md
+├── app.js
+├── .gitignore
+├── public/
+│   ├── css/
+│   └── images/
+├── views/
+│   ├── index.html
+│   ├── login.html
+│   └── register.html
+```
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y compartirlo libremente.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas mejorar el proyecto, haz un fork y envía un pull request.
 
 ## Autor
 
