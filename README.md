@@ -47,7 +47,7 @@ https://super-jelly-27eda1.netlify.app/
 
 Puedes agregar aquí imágenes del sitio en funcionamiento:
 
-![Home](.\screenshots\home.png)
+![Home](./screenshots/home.png)
 
 ## Estructura de carpetas principal
 
