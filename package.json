@@ -5,7 +5,11 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "build:html": "cpx \"views/**/*\" dist",
+    "build:assets": "cpx \"public/**/*\" dist/public",
+    "build": "npm-run-all clean build:html build:assets"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +20,9 @@
   },
   "description": "",
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "cpx": "^1.5.0",
+    "nodemon": "^3.0.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^6.0.1"
   }
 }
